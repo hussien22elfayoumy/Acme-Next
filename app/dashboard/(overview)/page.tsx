@@ -9,6 +9,9 @@ import {
   CardsSkeleton,
 } from '@/app/ui/skeletons';
 
+// TODO: Not stabel yet not good for production
+export const experimental_ppr = true;
+
 export default async function Page() {
   return (
     <main>
